@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook Page</title>
+    <style>
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    .main
+    {
+        width: 100%;
+    }
+    .container
+    {
+        width: 100%;
+        height: 15px;
+        margin: 0 auto;
+        
+    }
+    .main_container
+    {
+        width: 100%;
+        height: 570px;
+        margin: 0 auto;
+        background-color: rgb(212, 216, 228);
+    }
+    .top
+    {
+        background-color: #405B9A;
+        height: 85px;
+    }
+    .logo
+    {
+        padding-left: 7%;
+        float: left;
+        padding-top: 30px;
+    }
+    .form
+    {
+        float: right;
+    }
+    .text-field
+    {
+        width: 33%;
+        height: 70px;
+        float: left;
+        padding: 15px 4px;
+    }
+    label
+    {
+        color: white;
+        font-size: 14px;
+    }
+    .text-field input
+    {
+        width: 95%;
+        height: 20px;
+        border: 1px solid;
+        margin: 3px 0px;
+    }
+    .forgot
+    {
+        color: #8FB4D8;
+        font-size: 14px;
+    }
+    .top input[type="submit"]
+    {
+        background-color: #405B9A;
+        margin: 37px 0px;
+        width: 10%;
+        height: 21px;
+        color: white;
+        border: 1px solid black;
+    }
+    .rightbody
+    {
+        clear: both;
+        width: 45%;
+        float: right;
+    }
+    h1
+    {
+        padding-left: 15%;
+        font-size: 22px;
+        margin-top: 20px 0px;
+        color: #0E385F;
+    }
+    .img
+    {
+        padding-left: 15%;
+        width: 70%;
+    }
+    .leftbody
+    {
+        width: 55%;
+        float: left;
+    }
+    .main-heading
+    {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .sub
+    {
+        font-size: 20px;
+        margin: 10px 5px;
+    }
+    .rightbody >input.half
+    {
+        width: 40%;
+        height: 38px;
+        border-radius: 5px;
+        padding: 0px 10px;
+        border: 1px solid #BDC7D8;
+        font-size: 17px;
+        margin: 5px 0px 5px 0px;
+        box-sizing: border-box;
+    }
+    .rightbody >input.full
+    {
+        width: 81%;
+        height: 38px;
+        border-radius: 5px;
+        padding: 0px 5px;
+        border: 1px solid #BDC7D8;
+        font-size: 17px;
+        margin: 5px 0px;
+        box-sizing: border-box;
+    }
+    .rightbody select
+    {
+        width: 11%;
+        height: 25px;
+    }
+    .gender
+    {
+        font-size: 22px;
+    }
+    .para
+    {
+        font-size: 12px;
+    }
+    .rightbody input[type="submit"]
+    {
+        width: 35%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #64A651;
+        color: white;
+        font-size: 22px;
+        border: 1px solid #3B6E22;
+        margin: 10px 0px;
+    }
+    .question_button
+    {
+        background-color: rgb(92, 92, 92);
+        border: 1px solid rgb(128, 128, 128, 0.575);
+        color: white;
+        border-radius: 100%;
+        width: 20px;
+        font-weight: 700px;
+    }
+    .footer
+    {
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        clear: both;
+        font-size: 12px;
+    }
+    .footer_left_para
+    {
+        padding-left: 10%;
+    }
+    .hr_one
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .plus_button
+    {
+        font-size: 20px;
+        width: 30px;
+        height: 25px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="container">
+
+                <div class="logo">
+                <img src="facebook.jpg" alt="" width="40%">
+                </div>
+
+                <div class="form">
+                    <div class="text-field">
+                        <label for="email">Email or Phone</label>
+                        <input type="text" name="" id="">
+                    </div>
+
+                    <div class="text-field">
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="">
+                        <div class="forgot">Forgot Password?</div>
+                    </div> 
+                        <input type="submit" value="Log In">
+                </div>
+                
+            </div>   
+        </div>
+        <div class="main_container">  
+            <div class="rightbody">
+                
+                <div class="main-heading">Create a new account</div>
+                <div class="sub">It's quick and easy.</div>
+                    
+                    <input type="text" name="" id="" placeholder="First name" class="half">
+                    <input type="text" name="" id="" placeholder="Surname" class="half">
+                    <input type="text" name="" id="" placeholder="Mobile number or email address" class="full">
+                    <input type="password" name="" id="" placeholder="New password" class="full"><br>
+                
+                    <div class="sub">Birtday</div>
+                    <select name="" id="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                        <option value="">13</option>
+                        <option value="">14</option>
+                        <option value="">15</option>
+                        <option value="">16</option>
+                        <option value="">17</option>
+                        <option value="">18</option>
+                        <option value="">19</option>
+                        <option value="">20</option>
+                        <option value="">21</option>
+                        <option value="">22</option>
+                        <option value="">23</option>
+                        <option value="">24</option>
+                        <option value="">25</option>
+                        <option value="">26</option>
+                        <option value="">27</option>
+                        <option value="">28</option>
+                        <option value="">29</option>
+                        <option value="">30</option>
+                        <option value="">31</option>
+                    </select>
+
+                    <select name="" id="">
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">Mar</option>
+                        <option value="">Apr</option>
+                        <option value="">May</option>
+                        <option value="">Jun</option>
+                        <option value="">Jul</option>
+                        <option value="">Aug</option>
+                        <option value="">Sep</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option>
+                    </select>
+
+                    <select name="" id="">
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                        <option value="">2018</option>
+                        <option value="">2017</option>
+                        <option value="">2016</option>
+                        <option value="">2015</option>
+                        <option value="">2014</option>
+                        <option value="">2013</option>
+                        <option value="">2012</option>
+                        <option value="">2011</option>
+                        <option value="">2010</option>
+                        <option value="">2009</option>
+                        <option value="">2008</option>
+                        <option value="">2007</option>
+                        <option value="">2006</option>
+                        <option value="">2005</option>
+                        <option value="">2004</option>
+                        <option value="">2003</option>
+                        <option value="">2002</option>
+                        <option value="">2001</option>
+                        <option value="">2000</option>
+                        <option value="">1999</option>
+                        <option value="">1998</option>
+                        <option value="">1997</option>
+                        <option value="">1996</option>
+                        <option value="">1995</option>
+                    </select>&nbsp;
+
+                    <input class="question_button" type="button" value="?">
+                    
+                    <div class="sub">Gender</div>
+                    <input type="radio" name="gender" id=""> &nbsp; <span class="gender">Male</span>
+                    <input type="radio" name="gender" id=""> &nbsp; <span class="gender">Female</span>
+                    <input type="radio" name="gender" id=""> &nbsp; <span class="gender">Custom</span>&nbsp; &nbsp;
+                    <input class="question_button" type="button" value="?">
+                    <br><br>
+
+                    <p class="para">By clicking Sign Up, you agree to our Terms, Data Policy and <br> Cookie Policy. You may receive SMS notifications from us and <br> can opt out at any time.</p>
+                    <br>
+
+                    <input type="submit" value="Sign Up" id="">
+                    <br><br>
+
+                    <p>Create a Page for a celebrity, band or business.</p>
+            </div>
+            <div class="leftbody">
+                <br>
+                <h1>Facebook helps you connect and share with the <br> people in your life.</h1>
+                <img class="img" src="image_map.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p class="footer_left_para"><br><br><br><br>
+            English(UK)&emsp;اردو&emsp;پښتو&&emsp;العربية&emsp;हिन्दी&emsp;ਪੰਜਾਬੀ&emsp;বাংলা&emsp;Deutsch&emsp;ગુજરાતી&emsp;فارسی&emsp;Español&emsp;<button class="plus_button">+</button></p>
+            <br>
+            <hr class="hr_one"><br>
+            <p class="footer_left_para">
+            Sign Up&emsp;Log In&emsp;Messenger&emsp;Facebook Lite&emsp;Watch&emsp;People&emsp;Pages&emsp;Page categories&emsp;Places&emsp;Games&emsp;Locations&emsp;Marketplace&emsp;Facebook Pay&emsp;Groups&emsp;Jobs&emsp;Oculus&emsp;Portal&emsp;Instagram&emsp;<br>
+            Local&emsp;Fundraisers&emsp;Services&emsp;Voting&emsp;Information&emsp;Centre&emsp;About&emsp;Create ad&emsp;Create Page&emsp;Developers&emsp;Careers&emsp;Privacy&emsp;
+            Cookies&emsp;AdChoices&emsp;Terms&emsp;Help<br><br>
+            Facebook © 2021
+            </p><br> 
+        </div>
+    </footer>
+</body>
+</html>
